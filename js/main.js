@@ -1479,7 +1479,7 @@ function getDevices(override){
 									var random = getRandomInt(1,100000);
 									html+='<ul class="col-thermostat input-groupBtn">';
 									  html+='<li class="up"><a href="javascript:void(0)" class="btn btn-number plus" data-type="plus" data-field="quant['+device['idx']+']" onclick="this.blur();">';
-												html+='<em class="fa fa-plus fa-small fa-thermostat"></em>';
+											html+='<em class="fa fa-plus fa-small fa-thermostat"></em>';
 											html+='</a></li>';
 									  html+='<li class="down"><a href="javascript:void(0)" class="btn btn-number min" data-type="minus" data-field="quant['+device['idx']+']" onclick="this.blur();">';
 									  html+='<em class="fa fa-minus fa-small fa-thermostat"></em>';
